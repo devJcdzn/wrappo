@@ -1,5 +1,5 @@
 {
-  "name": "@wrappo/node",
+  "name": "wrappo-node",
   "version": "1.0.0",
   "description": "Um wrapper inteligente para debug de erros no console",
   "main": "dist/index.js",
