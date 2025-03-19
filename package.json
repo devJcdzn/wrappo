@@ -1,9 +1,9 @@
 {
   "name": "wrappo-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Um wrapper inteligente para debug de erros no console",
   "main": "dist/index.js",
- "scripts": {
+  "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
@@ -13,11 +13,17 @@
     "type": "git",
     "url": "https://github.com/devJcdzn/wrappo.git"
   },
-  "keywords": ["debug", "errors", "console", "logger", "wrappo"],
+  "keywords": [
+    "debug",
+    "errors",
+    "console",
+    "logger",
+    "wrappo"
+  ],
   "dependencies": {
     "tsx": "^4.19.3"
   },
-   "author": "Um só devJC",
+  "author": "Um só devJC",
   "devDependencies": {
     "@types/node": "^22.13.10",
     "typescript": "^5.8.2"
